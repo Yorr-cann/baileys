@@ -1,7 +1,7 @@
 # WhatsApp Baileys
 
 <p align="center">
-  <img src="https://files.catbox.moe/369pux.jpg" alt="Thumbnail" />
+  <img src="https://d.uguu.se/psobMTRr.jpg" alt="Thumbnail" />
 </p>
 
 WhatsApp Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
@@ -82,13 +82,13 @@ await sock.sendMessage(jid, {
     eventMessage: { 
         isCanceled: false, 
         name: "Hello World", 
-        description: "yume native", 
+        description: "Bayy x Yorr", 
         location: { 
             degreesLatitude: 0, 
             degreesLongitude: 0, 
             name: "rowrrrr" 
         }, 
-        joinLink: "https://call.whatsapp.com/video/yumevtc", 
+        joinLink: "https://call.whatsapp.com/video/Yorr-Cann", 
         startTime: "1763019000", 
         endTime: "1763026200", 
         extraGuestsAllowed: false 
@@ -125,7 +125,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @yumevtc ",
+        footer: "telegram: @DomeSzz ",
         buttons: [
             {
                 name: "cta_copy",
@@ -148,26 +148,26 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "telegram: @yumevtc",      
+        footer: "telegram: @DomeSzz",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "idk hummmm?",            
-                    url: "https://t.me/yumevtc",            
-                    copy_code: "yume",            
+                    url: "https://t.me/DomeSzz",            
+                    copy_code: "DomeSzz",            
                     expiration_time: Date.now() * 999          
                 },          
                 bottom_sheet: {            
                     in_thread_buttons_limit: 2,            
                     divider_indices: [1, 2, 3, 4, 5, 999],            
-                    list_title: "yume native",            
-                    button_title: "yume native"          
+                    list_title: "Bayy x Yorr",            
+                    button_title: "Bayy x Yorr"          
                 },          
                 tap_target_configuration: {            
                     title: " X ",            
                     description: "bomboclard",            
-                    canonical_url: "https://t.me/yumevtc",            
+                    canonical_url: "https://t.me/DomeSzz",            
                     domain: "shop.example.com",            
                     button_index: 0          
                 }        
@@ -227,8 +227,8 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @yumevtc",
-        image: { url: "https://example.com/image.jpg" },
+        footer: "telegram: @DomeSzz",
+        image: { url: "https://d.uguu.se/psobMTRr.jpg" },
         buttons: [
             {
                 name: "cta_copy",
@@ -251,7 +251,7 @@ await sock.sendMessage(jid, {
     productMessage: {
         title: "Produk Contoh",
         description: "Ini adalah deskripsi produk",
-        thumbnail: { url: "https://example.com/image.jpg" },
+        thumbnail: { url: "https://d.uguu.se/psobMTRr.jpg" },
         productId: "PROD001",
         retailerId: "RETAIL001",
         url: "https://example.com/product",
@@ -280,10 +280,10 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @yumevtc",
+        footer: "telegram: @DomeSzz",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "yumevtc.pdf",
+        fileName: "DomeSzz.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         contextInfo: {
             mentionedJid: [jid],
@@ -296,7 +296,7 @@ await sock.sendMessage(jid, {
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
             mediaUrl: " X ",
-            sourceUrl: "https://t.me/yumevtc",
+            sourceUrl: "https://t.me/DomeSzz",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -305,8 +305,8 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/yumevtc",
-                    merchant_url: "https://t.me/yumevtc"
+                    url: "https://t.me/DomeSzz",
+                    merchant_url: "https://t.me/DomeSzz"
                 })
             }
         ]
@@ -322,18 +322,18 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @yumevtc",
+        footer: "telegram: @DomeSzz",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "yumevtc.pdf",
+        fileName: "DomeSzz.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/yumevtc",
-                    merchant_url: "https://t.me/yumevtc"
+                    url: "https://t.me/DomeSzz",
+                    merchant_url: "https://t.me/DomeSzz"
                 })
             }
         ]
