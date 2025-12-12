@@ -1,5 +1,5 @@
 {
-  "name": "Yorr-cann/baileys",
+  "name": "baileys",
   "type": "module",
   "version": "7.0.0",
   "description": "A WebSockets library for interacting with WhatsApp Web",
@@ -67,7 +67,7 @@
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-prettier": "^5.4.0",
     "jest": "^30.0.5",
-    "jimp": "^0.16.1",
+    "jimp": "^1.6.0",
     "jiti": "^2.4.2",
     "json": "^11.0.0",
     "link-preview-js": "^3.0.0",
